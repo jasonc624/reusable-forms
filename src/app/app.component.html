@@ -1,0 +1,11 @@
+<form [formGroup]="baseForm">
+  <label for="name">Name</label>
+  <input formControlName="name" type="text" />
+  <label for="lastName">Last Name</label>
+  <input formControlName="lastName" type="text" />
+  <!-- <label for="email">Email</label>
+  <input formControlName="email" type="text" />
+  <label for="password">Password</label>
+  <input formControlName="password" type="text" /> -->
+  <app-emailpassform formControlName="emailPass"></app-emailpassform>
+</form>
